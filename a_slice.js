@@ -1,5 +1,5 @@
 let var = macro {
-  rule { $args = a_slice($arguments)} => {
+  rule { $args = a_slice($arguments);} => {
     var length = $arguments.length;
     var $args = new Array(length);
     for (var i = 0; i < length; i++ ){
