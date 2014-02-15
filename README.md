@@ -9,7 +9,7 @@ how to use
 ```sh
 npm install sweet-a_slice sweet
 
-npm install -g sweet.js // if you don't already have sweet.js
+npm install -g sweet.js # if you don't already have sweet.js
 sjs -m sweet-a_slice <your-sweet-code>
 ```
 
