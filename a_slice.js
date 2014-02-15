@@ -8,8 +8,8 @@ let var = macro {
   }
 
   rule { $args = a_slice($arguments, $start); } => {
-    var start = Math.min($start, length);
     var length = $arguments.length;
+    var start = Math.min($start, length - 1);
     var $args = new Array(length - start);
     for (var i = start; i < length; i++) {
       $args[i] = arguments[i];
