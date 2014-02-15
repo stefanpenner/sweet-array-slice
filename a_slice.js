@@ -2,7 +2,7 @@ let var = macro {
   rule { $args = a_slice($arguments); } => {
     var length = $arguments.length;
     var $args = new Array(length);
-    for (var i = 0; i < length; i++ ){
+    for (var i = 0; i < length; i++) {
       $args[i] = arguments[i];
     }
   }
@@ -20,7 +20,7 @@ let var = macro {
     var start = Math.min($start, length - 1);
     var end = Math.min($end, length);
     var $args = new Array(end - start);
-    for (var i = start; i < end; i++ ){
+    for (var i = start; i < end; i++) {
       $args[i] = arguments[i];
     }
   }
