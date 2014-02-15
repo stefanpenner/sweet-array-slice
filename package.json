@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/stefanpenner/a_slice/issues"
   },
-  "homepage": "https://github.com/stefanpenner/a_slice"
+  "homepage": "https://github.com/stefanpenner/a_slice",
+  "devDependencies": {
+    "sweet.js": "~0.4.2"
+  }
 }
