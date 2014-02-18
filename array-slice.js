@@ -1,5 +1,5 @@
 let var = macro {
-  rule { $args = a_slice($arguments); } => {
+  rule { $args = arraySlice($arguments); } => {
     var length = $arguments.length;
     var $args = new Array(length);
     for (var i = 0; i < length; i++) {
@@ -7,7 +7,7 @@ let var = macro {
     }
   }
 
-  rule { $args = a_slice($arguments, $start); } => {
+  rule { $args = arraySlice($arguments, $start); } => {
     var length = $arguments.length;
     var start = Math.min($start, length - 1);
     var $args = new Array(length - start);
@@ -16,7 +16,7 @@ let var = macro {
     }
   }
 
-  rule { $args = a_slice($arguments, $start, $end); } => {
+  rule { $args = arraySlice($arguments, $start, $end); } => {
     var length = $arguments.length;
     var start = Math.min($start, length - 1);
     var end = Math.min($end, length);
