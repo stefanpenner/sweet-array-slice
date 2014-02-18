@@ -1,24 +1,24 @@
 {
-  "name": "sweet-a_slice",
-  "version": "0.0.3",
+  "name": "sweet-array-slice",
+  "version": "0.0.4",
   "description": "sweet.js macro for array slicing, specifically to deal with the cost of argument slicing",
-  "main": "a_slice.js",
+  "main": "array-slice.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanpenner/a_splice.git"
+    "url": "git://github.com/stefanpenner/sweet-array-slice.git"
   },
   "keywords": [
-    "a_slice"
+    "array slice"
   ],
-  "author": "stefan penner",
+  "author": "Stefan Penner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanpenner/a_slice/issues"
+    "url": "https://github.com/stefanpenner/sweet-array-slice/issues"
   },
-  "homepage": "https://github.com/stefanpenner/a_slice",
+  "homepage": "https://github.com/stefanpenner/sweet-array-slice",
   "devDependencies": {
     "sweet.js": "~0.4.2"
   }

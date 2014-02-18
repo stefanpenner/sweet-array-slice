@@ -1,16 +1,16 @@
-sweet-a_slice
+sweet-array-slice
 =============
 
-sweet.js macro for array splice, specifically to deal with argument splicing deopt.
+sweet.js macro for array slice. It's specifically intended to deal with deoptimization due to arguments slicing.
 
-how to use
+How to use
 ----------
 
 ```sh
-npm install sweet-a_slice sweet
+npm install sweet-array-slice sweet
 
 npm install -g sweet.js # if you don't already have sweet.js
-sjs -m sweet-a_slice <your-sweet-code>
+sjs -m sweet-array-slice <your-sweet-code>
 ```
 
 Example
@@ -20,19 +20,22 @@ Example
 
 
 
-Ouput
------
+Before
+------
 
 ```js
 // test.js
 
 // example 1
-var a = a_slice(arguments);
+var a = arraySlice(arguments);
 // example 2
-var b = a_slice(arguments, 1);
+var b = arraySlice(arguments, 1);
 // example 3
-var c = a_slice(arguments, 1, 2);
+var c = arraySlice(arguments, 1, 2);
 ```
+
+After
+-----
 
 ```js
 // example 1
