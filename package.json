@@ -1,6 +1,6 @@
 {
   "name": "sweet-array-slice",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "sweet.js macro for array slicing, specifically to deal with the cost of argument slicing",
   "main": "array-slice.js",
   "scripts": {
